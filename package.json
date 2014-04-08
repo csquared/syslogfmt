@@ -1,0 +1,21 @@
+{
+  "name": "syslogfmt",
+  "version": "0.0.0",
+  "description": "convert syslog to logfmt",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin" : {
+    "syslogfmt" : "./bin/syslogfmt"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "through": "~2.3.4",
+    "split": "~0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}

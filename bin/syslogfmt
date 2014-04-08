@@ -1,0 +1,7 @@
+#! /usr/bin/env node
+
+var syslogfmt  = require('../index')
+
+process.stdin
+  .pipe(syslogfmt.stream())
+  .pipe(process.stdout)
